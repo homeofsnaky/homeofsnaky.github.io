@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+	table, th, td, caption{
+		border: 1px outset blue;
+		border-collapse: collapse;
+		padding: 5px;
+	}
+	th,td{
+		text-align: left;
+	}
+	td:nth-child(odd){
+		background-color: #005566;
+		color: white
+	}
+</style>
+</head>
+<body>
+
+<h2>The picture Element</h2>
+
+<picture>
+  <source media="(min-width: 650px)" srcset="galaxy.jpg">
+  <source media="(min-width: 465px)" srcset="google.svg">
+  <img src="simson.gif" style="width:300px;">
+</picture>
+<table>
+	<caption>Information</caption>
+	<tr>
+		<th>Name</th>
+		<th>Number</th>
+		<th>Class</th>
+	</tr>
+	<tr>
+		<td rowspan="2">Nguyen Minh Hanh</td>
+		<td>09445688123</td>
+		<td rowspan="2">SE1502</td>
+	</tr>
+	<tr>
+		<td>094554524524</td>
+	</tr>
+	<tr>
+		<td>Ellen Watson</td>
+		<td>013124132332</td>
+		<td>001</td>
+	</tr>
+</table>
+
+<dl>
+	<dt>Coffee</dt>
+	<dd>-Black hot drink</dd>
+	<dt>Milk</dt>
+	<dd>-White cold drink</dd>
+</dl>
+
+<ul style="list-style-type: circle;">
+	<li>flower</li>
+	<li>leaf</li>
+	<li>root</li>	
+</ul>
+
+
+<ol type="a" start="20">
+	<li>flower</li>
+	<li>leaf</li>
+	<li>root</li>	
+</ol>
+<div style="border: 1px solid black">
+	Hello World!
+</div>
+<p>This is how I <span style="border: 1px solid blue">Hello world!</span> and </p>
+</body>
+</html>
