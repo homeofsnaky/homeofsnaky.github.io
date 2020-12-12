@@ -1,0 +1,21 @@
+body{
+	background-color: rgba(255,0,100,0.5);
+}
+h1{
+	color: hsla(240,100%,50%, 0.7);
+}
+h2{
+	color: #12ff66;
+	border: 2px solid powderblue;
+	padding: 30px;
+	margin: 3px;
+}
+a: link{
+	color: orange
+	background-color: transparent;
+	text-decoration: none;
+}
+a: hover{
+	color: blue;
+	text-decoration: underline;
+}
